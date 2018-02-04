@@ -14,7 +14,6 @@ namespace RandomWalkerCSharp
     {
         Graphics canvas;  //Creación de nuetro Canvas
         int x, y, direccion, size = 20;
-
         Random rnd = new Random();  //  Numeros Aleatorios
         SolidBrush stroke = new SolidBrush(Color.White);    //  Brocha Blanca
         SolidBrush strokeRed = new SolidBrush(Color.Red);   //  Bocha Roja es el pivote
